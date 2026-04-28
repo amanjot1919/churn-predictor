@@ -1,0 +1,35 @@
+{
+  "model_name": "Random Forest",
+  "trained_at": "2026-04-28T12:39:45.258571",
+  "n_train": 5634,
+  "n_test": 1409,
+  "test_accuracy": 0.7722,
+  "test_auc": 0.8399,
+  "test_f1": 0.6323,
+  "all_model_results": {
+    "Random Forest": {
+      "cv_auc": 0.8449,
+      "test_auc": 0.8399,
+      "test_f1": 0.6323,
+      "test_acc": 0.7722
+    },
+    "Gradient Boosting": {
+      "cv_auc": 0.8404,
+      "test_auc": 0.8383,
+      "test_f1": 0.565,
+      "test_acc": 0.7935
+    },
+    "Logistic Regression": {
+      "cv_auc": 0.8126,
+      "test_auc": 0.8204,
+      "test_f1": 0.5935,
+      "test_acc": 0.7055
+    },
+    "Decision Tree": {
+      "cv_auc": 0.7942,
+      "test_auc": 0.807,
+      "test_f1": 0.6017,
+      "test_acc": 0.7303
+    }
+  }
+}
